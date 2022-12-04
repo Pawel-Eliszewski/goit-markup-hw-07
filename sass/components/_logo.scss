@@ -1,0 +1,20 @@
+.header,
+.footer {
+    &__logo {
+        font-family: "Raleway";
+        color: var(--logo-color2);
+        font-size: 26px;
+        line-height: 1.19;
+        margin-right: 93px;
+        letter-spacing: 0.03em;
+
+        &:focus,
+        &:hover {
+            color: unset;
+        }
+    }
+}
+
+.footer__logo {
+    color: var(--text-color2);
+}

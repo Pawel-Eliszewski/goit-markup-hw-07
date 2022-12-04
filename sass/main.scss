@@ -1,9 +1,11 @@
 @import "./utils/variables";
 @import "./utils/hidden";
 @import "./utils/commons";
+@import "./utils/backdrop";
 
 
 @import "./components/header";
+@import "./components/logo";
 @import "./components/navigation";
 @import "./components/hero";
 @import "./components/portfolio";
@@ -12,6 +14,7 @@
 @import "./components/team";
 @import "./components/clients";
 @import "./components/footer";
+@import "./components/buttons";
 @import "./components/label";
 @import "./components/input";
 @import "./components/modal";

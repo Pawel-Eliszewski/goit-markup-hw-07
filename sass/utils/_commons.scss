@@ -11,6 +11,8 @@ body {
 
 .link:hover {
     color: var(--hover-color);
+    transition-duration: var(--transition-duration-main);
+    transition-timing-function: var(--transition-timing-function-main);
 }
 
 .img {
