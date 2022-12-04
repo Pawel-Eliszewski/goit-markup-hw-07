@@ -1,0 +1,104 @@
+.portfolio__work-list {
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+}
+
+.portfolio__work-item {
+    border: 1px solid var(--border-bottom-color2);
+    border-top: none;
+}
+
+.portfolio__work-item:hover,
+.portfolio__work-item:focus {
+    box-shadow: var(--box-shadow-hover2);
+    transition-duration: var(--transition-duration-main);
+    transition-timing-function: var(----ftransition-timing-function-main);
+}
+
+.portfolio__work-item:hover .portfolio__card-overlay,
+.portfolio__work-item:focus .portfolio__card-overlay {
+    transform: translate(0, -295px);
+    transition-duration: var(--transition-duration-main);
+    transition-timing-function: var(--ftransition-timing-function-main);
+}
+
+.portfolio__filters-btn  {
+    font-family: "Roboto";
+    border: none;
+    font-size: 16px;
+    padding: 6px 22px;
+    font-weight: 500;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+}
+
+.portfolio__filters-btn:hover,
+.portfolio__filters-btn:focus {
+    background-color: var(--hover-color);
+    color: var(--text-color2);
+    border: none;
+    box-shadow: var(--box-shadow-hover);
+}
+
+.portfolio__card-title {
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    padding: 20px 24px 0 24px;
+    margin-bottom: 4px;
+}
+
+.portfolio__card-subtitle {
+    color: var(--text-color);
+    line-height: 1.87;
+    padding: 0 24px 20px 24px;
+}
+
+.portfolio__filters-list {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 50px;
+}
+
+.portfolio__filters-btn:hover,
+.portfolio__filters-btn:focus {
+    transition-duration: var(--transition-duration-main);
+    transition-timing-function: var(--ftransition-timing-function-main);
+}
+
+.portfolio__card-overlay {
+    position: absolute;
+    width: 370px;
+    height: 296px;
+    background-color: var(--background-color4);
+    transform: translate(0, 0);
+    transition-duration: var(--transition-duration-main);
+    transition-timing-function: var(--ftransition-timing-function-main);
+}
+
+.portfolio__card-thumb {
+    position: relative;
+    overflow: hidden;
+}
+
+.portfolio__card-overlay-copy {
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    color: var(--background-color2);
+    padding: 49px 45px 49px 24px;
+    font-size: 18px;
+    margin: 0 auto;
+}
+
+.portfolio__card-link:hover {
+    color: unset;
+}

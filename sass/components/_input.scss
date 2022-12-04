@@ -1,0 +1,16 @@
+.input {
+    background-color: transparent;
+    margin: 0 auto;
+    padding-left: 42px;
+    border: 1px solid var(--border-color2);
+    border-radius: 4px;
+    width: 448px;
+    height: 40px;
+}
+
+.input:focus {
+    outline: 0;
+    border-color: var(--hover-color);
+    transition-duration: var(--transition-duration-main);
+    transition-timing-function: var(--ftransition-timing-function-main);
+}

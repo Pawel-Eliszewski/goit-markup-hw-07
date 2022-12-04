@@ -1,0 +1,70 @@
+.team__social-item:hover,
+.team__social-item:focus {
+    background: var(--hover-color);
+    fill: var(--text-color2);
+    cursor: pointer;
+    transition-duration: var(--transition-duration-main);
+    transition-timing-function: var(--ftransition-timing-function-main);
+}
+
+.team__social-item:hover .team__social-svg {
+    fill: var(--text-color2);
+}
+
+.team__social-svg {
+    fill: var(--svg-color2);
+}
+
+.team.section {
+    background-color: var(--background-color2);
+}
+
+.team__card-subtitle {
+    line-height: 1.17;
+}
+
+.team__card-subtitle {
+    color: var(--text-color);
+    line-height: 1.71;
+}
+
+.team__list {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team__item {
+    box-shadow: var(--box-shadow);
+    border-radius: 0px 0px 4px 4px;
+    background: var(--text-color2);
+}
+
+.team__social,
+.team__social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team__social-list {
+    gap: 10px;
+}
+
+.team__social-item {
+    display: flex;
+    background: var(--text-color2);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 30px;
+}
+

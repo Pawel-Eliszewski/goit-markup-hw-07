@@ -1,0 +1,34 @@
+.clients__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.clients__item {
+    display: flex;
+    border: 1px solid var(--svg-color);
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients__item:hover {
+    border: 1px solid var(--hover-color);
+    cursor: pointer;
+}
+
+.clients__item-svg {
+    fill: var(--svg-color2);
+}
+
+.clients__item:hover .clients__item-svg {
+    fill: var(--color4);
+    --color4: var(--hover-color);
+    cursor: pointer;
+    transition-duration: var(--transition-duration-main);
+    transition-timing-function: var(--ftransition-timing-function-main);
+}

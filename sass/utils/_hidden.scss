@@ -1,0 +1,9 @@
+.is-hidden {
+    transform: opacity(0);
+    transform: scale(0);
+    transition-duration: var(--transition-duration-main);
+    transition-timing-function: var(--ftransition-timing-function-main);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
